@@ -1,4 +1,4 @@
-## backend (NestJS)
+# 하이퍼 크루 api
 
 ## 기술스택
 
