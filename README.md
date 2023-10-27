@@ -182,3 +182,5 @@ node.js에서 주로 사용되는 인증 라이브러리로 @nestjs/passport로 
 yarn add @nestjs/passport passport @nestjs/jwt passport-jwt
 yarn add -D @types/passport-jwt
 ```
+
+JwtSecret 키는 [OpenSSL](https://larsgraubner.com/openssl-secrets/) 을 사용해 비밀키를 생성해서 사용하고 `@nestjs/config` 나 env로 설정해서 코드베이스에 직접 저장하지 않는다.

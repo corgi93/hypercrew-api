@@ -18,8 +18,8 @@ async function bootstrap() {
         new ClassSerializerInterceptor(app.get(Reflector)),
     );
     const config = new DocumentBuilder()
-        .setTitle('vohis dev')
-        .setDescription('vohis dev api 문서')
+        .setTitle('hyper crew api')
+        .setDescription('hyper crew dev api 문서')
         .setVersion('0.1')
         .build();
 
